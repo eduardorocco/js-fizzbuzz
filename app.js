@@ -11,5 +11,16 @@
 // SE il numero di interazione è divisibile per 3 && 5 scrivi fizz buzz
 
 for (let i = 0; i < 100; i++) {
-    console.log(i+1)
+
+    let num = i + 1
+
+    if (num % 3 == 0) {
+        console.log('Fizz')
+    } 
+    
+    else if  (num % 5 == 0)
+        console.log('Buzz') 
+    
+
+    
 }
