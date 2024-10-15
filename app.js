@@ -10,3 +10,6 @@
 // SE il numero di interazioni è divisible per 5 scrivi buzz
 // SE il numero di interazione è divisibile per 3 && 5 scrivi fizz buzz
 
+for (let i = 0; i < 100; i++) {
+    console.log(i+1)
+}
